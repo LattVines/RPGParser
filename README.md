@@ -7,10 +7,9 @@ for the parser.
 
 example
 
-"[a|b] [c|d|e|f|[1|2] thing|last]" -> "a thing"
-or
--> "b c"
-or 
+"[a|b] [c|d|e|f|[1|2] thing|last]" could produce any of the following.
+- "a thing"
+- "b c"
 - "a 2"
 
 Any section appearing inside '[' and ']' will be parsed. Options inside are dilineated by '|'. The parser is recursive; nested
