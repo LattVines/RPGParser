@@ -8,7 +8,7 @@ for the parser.
 example
 
 "[a|b] [c|d|e|f|[1|2] thing|last]" could produce any of the following.
-- "a thing"
+- "a 1 thing"
 - "b c"
 - "a 2"
 
