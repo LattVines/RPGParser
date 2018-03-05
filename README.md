@@ -1,5 +1,6 @@
 # RPGParser
 A parser for randomizing formatted text.
+Made during Procedural Generation Jam #ProcJam in one week.
 
 This is a recursive parser that reads through strings written in a specific format such that it can randomize
 the string content appearing in bracketed lists. It is a visual studio c# project consisting of a single class
